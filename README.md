@@ -1,4 +1,4 @@
-# Project Name #
+# Equity Impact Calculator #
 
 <!--
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -16,29 +16,28 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
 
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+## Equity Impact Calculator ##
 
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+## See how your equity is impacted by good management ##
+  > This product can be used by commercial property owners to see the impact of their management on the equity of their building.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > For those investors who watch their monthly income, and are not aware of their equity upside, our product solves this problem with the click of a button. Now you will be able to clearly see how your equity is impacted based on your monthly management decisions. This type of awareness will put you in the fast lane for your investment goals.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Investors often don't know how badly their management is impacting their equity. Many investors are not even aware that they can reach their investment goals relatively quickly with small changes to the income and expenses of their cash flow.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > With our product, investors will be keenly aware of their equity position in their property. Our Calculator takes in an input of their area cap rate, and the net gain or loss in their income. This will calculate the equity impact on the click of a button.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > "We provide instant awareness of your management impact, so you can get in the fast lane towards your goals."
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Simply go to our website at www..... enter in your area cap rate and net income difference for the month, and click enter to see the equity impact.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > Using this tool helped speed up my management decisions, and made me realize how much equity we were wasting in our building. With this knowlege we were able to grow our equity substantially, and actually buy another investment with the equity gain!"
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > It has been great to see the massive impact this is making for investors already. I encourage you all to go straight to our website and see how you can leverage your current building in a way you didn't realize was possible.
