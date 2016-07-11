@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 //Serves up your public/client folder
-app.use(express.static('index.html'));
+app.use(express.static('public'));
 
 //Sample routing
 app.route('/')
