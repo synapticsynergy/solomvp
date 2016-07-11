@@ -15,13 +15,13 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
 //Sample routing
-app.route('/')
-  .get(function(req, res){
-    res.send("index.html will come soon!");
-  })
-  .post()
-  .put()
-  .delete();
+// app.route('/')
+//   .get(function(req, res){
+//     res.send("index.html will come soon!");
+//   })
+//   .post()
+//   .put()
+//   .delete();
 
 var port = process.env.PORT || 8000;
 
