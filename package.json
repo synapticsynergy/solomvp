@@ -1,0 +1,22 @@
+{
+  "name": "EquityImpact",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.12.15"
+  },
+  "description": "EquityImpact",
+  "main": "index.js",
+  "repository": "",
+  "license": "Proprietary",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.9.2"
+  },
+  "devDependencies": {}
+}
