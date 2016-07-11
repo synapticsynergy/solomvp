@@ -2,15 +2,11 @@
 angular.module('equityCalc')
 
 .controller('calcController', function($scope) {
-  $scope.roi = 5;
+  $scope.roi = 0;
 
-  $scope.incrementRoi = function() {
-    $scope.roi++;
+  $scope.calcRoe = function() {
+    $scope.roi = ($scope.netIncome * 12) / ($scope.capRate * 0.01);
   }
   console.log('hello', $scope.roi);
-
-  $scope.toUpperCase = function() {
-    return  $scope.capRate + 100;
-  }
 
 });

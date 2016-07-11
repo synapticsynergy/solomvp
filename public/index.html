@@ -13,11 +13,13 @@
     <div ng-controller="calcController">
       <form name="calcForm">
         <input type='number' ng-model='capRate' placeholder="Area Cap Rate">
-        <input type="password" ng-model='netIncome'>
-        <button >Calculate Equity</button>
+        <p> -This is your estimated area cap rate. ex: 5 (if your area cap rate is around 5%. You can reference listings on <a href="http://loopnet.com">Loopnet</a>) for a better idea of your area cap rate.</p>
+        <input type="number" ng-model='netIncome' placeholder="Net Monthly Difference">
+        <p> -This is the monthly net income you added. ex: $200 (if added $200 to net income of your investment).</p>
+        <button ng-click="calcRoe()">Calculate Equity</button>
       </form>
-      <p>{{ toUpperCase() }}</p>
-      <p ng-click="incrementRoi()">{{ roi }}</p>
+
+      <p>{{ roi }}</p>
 
     </div>
 
