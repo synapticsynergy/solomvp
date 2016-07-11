@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="equityCalc">
   <head>
     <meta charset="utf-8" />
     <title>Shortly</title>
@@ -10,12 +10,18 @@
     <h1>Equity Impact Calculator</h1>
 
     <!-- the ng-view directive is where our templates will be loaded into when navigated to -->
-    <div ng-init="roi=0"></div>
+    <div ng-controller="calcController">
+      <form name="calcForm">
+        <input type='number' ng-model='capRate' placeholder="Area Cap Rate">
+        <input type="password" ng-model='netIncome'>
+        <button >Calculate Equity</button>
+      </form>
+      <p>{{ toUpperCase() }}</p>
+      <p ng-click="incrementRoi()">{{ roi }}</p>
 
-      <p>{{ roi }}</p>
-
-
+    </div>
 
     <script src="app.js"></script>
+    <script src="calcController.js"></script>
   </body>
 </html>
