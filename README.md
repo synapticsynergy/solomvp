@@ -25,7 +25,7 @@ Once the project moves into development, the press release can be used as a touc
   > For those investors who watch their monthly income, and are not aware of their equity upside, our product solves this problem with the click of a button. Now you will be able to clearly see how your equity is impacted based on your monthly management decisions. This type of awareness will put you in the fast lane for your investment goals.
 
 ## Problem ##
-  > Investors often don't know how badly their management is impacting their equity. Many investors are not even aware that they can reach their investment goals relatively quickly with small changes to the income and expenses of their cash flow.
+  > Investors often don't know how significantly their management is impacting their equity. Many investors are not even aware that they can reach their investment goals relatively quickly with small changes to the income and expenses of their cash flow.
 
 ## Solution ##
   > With our product, investors will be keenly aware of their equity position in their property. Our Calculator takes in an input of their area cap rate, and the net gain or loss in their income. This will calculate the equity impact on the click of a button.
@@ -34,10 +34,10 @@ Once the project moves into development, the press release can be used as a touc
   > "We provide instant awareness of your management impact, so you can get in the fast lane towards your goals."
 
 ## How to Get Started ##
-  > Simply go to our website at www..... enter in your area cap rate and net income difference for the month, and click enter to see the equity impact.
+  > Simply go to our website at https://equityimpactcalc.herokuapp.com enter in your area cap rate and net income difference for the month, and click enter to see the equity impact.
 
 ## Customer Quote ##
   > Using this tool helped speed up my management decisions, and made me realize how much equity we were wasting in our building. With this knowlege we were able to grow our equity substantially, and actually buy another investment with the equity gain!"
 
 ## Closing and Call to Action ##
-  > It has been great to see the massive impact this is making for investors already. I encourage you all to go straight to our website and see how you can leverage your current building in a way you didn't realize was possible.
+  > It has been great to see the massive impact this is making for investors already. I encourage you all to go straight to our website and see how you can leverage your current assets in a way you didn't realize was possible.
