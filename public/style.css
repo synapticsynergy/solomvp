@@ -6,8 +6,13 @@ h1 {
   padding: 20px;
 }
 
-label, p {
-  padding-bottom: 15px;
+label {
+  padding-bottom: 10px;
+}
+
+p {
+    padding-bottom: 15px;
+    padding-top: 5px;
 }
 
 h3 {
