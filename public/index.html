@@ -2,26 +2,44 @@
 <html ng-app="equityCalc">
   <head>
     <meta charset="utf-8" />
-    <title>Shortly</title>
+    <title>Equity Impact Calc</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
   </head>
   <body>
-    <h1>Equity Impact Calculator</h1>
-
-    <div ng-controller="calcController">
-      <form name="calcForm">
-        <input type='number' ng-model='capRate' placeholder="Area Cap Rate">
-        <p> -This is your estimated area cap rate. ex: 5 (if your area cap rate is around 5%. You can reference listings on <a href="http://loopnet.com">Loopnet</a>) for a better idea of your area cap rate.</p>
-        <input type="number" ng-model='netIncome' placeholder="Net Monthly Difference">
-        <p> -This is the monthly net income you added. ex: $200 (if added $200 to net income of your investment).</p>
-        <button ng-click="calcRoe()">Calculate Equity</button>
-      </form>
-
-      <p>{{ roi | currency }}</p>
-
+    <div class="container containerColor">
+      <h1 class="text-center">Equity Impact Calculator</h1>
+      <div class="row">
+      <div class="col-md-10">
+        <div ng-controller="calcController">
+          <form name="calcForm">
+            <div class="form-group">
+              <label>Area Cap Rate</label>
+              <input type='number' class="form-control" ng-model='capRate' placeholder="Area Cap Rate">
+              <p class="help-block">This is your estimated area cap rate. ex: 5 (if your area cap rate is around 5%. You can reference listings on <a href="http://loopnet.com">Loopnet</a>) for a better idea of your area cap rate.</p>
+            </div>
+            <div class="form-group">
+              <label>Net Monthly Change</label>
+              <input type="number" class="form-control" ng-model='netIncome' placeholder="Net Monthly Change">
+            <p class="help-block">This is the monthly net income you added. ex: $200 (if added $200 to net income of your investment).</p>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-default" ng-click="calcRoe()">Calculate Equity</button>
+            </div>
+            <div class="form-group">
+              <h3>Changed Equity Position</h3>
+              <p>{{ roi | currency }}</p>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <script src="../app/calcController.js"></script>
   </body>

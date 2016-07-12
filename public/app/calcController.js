@@ -6,7 +6,6 @@ angular.module('equityCalc')
 
   $scope.calcRoe = function() {
     $scope.roi = ($scope.netIncome * 12) / ($scope.capRate * 0.01);
-  }
-  console.log('hello', $scope.roi);
+  };
 
 });
