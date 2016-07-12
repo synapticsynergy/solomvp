@@ -6,6 +6,7 @@ body {
   margin-top: 10px;
   background-color: lightblue;
   border-radius: 25px;
+  padding-bottom: 25px;
 }
 
 h1 {
@@ -30,6 +31,18 @@ h3 {
 .colPad {
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 50px;
+
 }
 
+img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.result {
+  font-size: 30px;
+}
+
+.topPad {
+  padding-top: 60px;
+}
