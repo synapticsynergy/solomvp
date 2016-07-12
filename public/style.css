@@ -1,5 +1,11 @@
 body {
+  background-color: white;
+}
+
+.containerColor {
+  margin-top: 50px;
   background-color: lightblue;
+  border-radius: 10px;
 }
 
 h1 {
@@ -19,3 +25,4 @@ h3 {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
