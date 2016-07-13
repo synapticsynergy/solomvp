@@ -37,22 +37,18 @@
             <div class="form-group">
               <h3 class="text-center topPad">Changed Equity Position</h3>
               <p class="text-center result">{{ roi | currency }}</p>
-              <h5 class="text-center" ng-show="isPositive()">You're On Your Way to World Domination!</h5>
-              <h5 class="text-center" ng-hide="isPositive()">Don't Know Where to Start? Consider Starting with a <a href="https://www.rentometer.com/">Rent Survey</a></h5>
+              <h5 class="text-center toTransition" ng-show="isPositive()">You're On Your Way to World Domination!</h5>
+              <h5 class="text-center toTransition" ng-hide="isPositive()">Don't Know Where to Start? Consider Starting with a <a href="https://www.rentometer.com/">Rent Survey</a></h5>
             </div>
           </div>
           <div class="col-md-6 colPad">
-              <img src="http://westwoodnetlease.com/wp-content/uploads/2015/11/commercial-real-estate.jpg" ng-show="isPositive()">
+              <img src="http://westwoodnetlease.com/wp-content/uploads/2015/11/commercial-real-estate.jpg" class="toTransition" ng-show="isPositive()">
           </div>
         </div>
 
-
-
-
-
-
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
     <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
